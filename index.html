@@ -8,28 +8,37 @@
 </head>
 <body>
     <div class="container">
-        <h1>Student Registration Form</h1>
-        <form id="registrationForm">
-            <label>Name:</label>
-            <input type="text" id="name" required>
+    <h1>Student Registration Form</h1>
+    <form id="registrationForm">
+        <label>Name:</label>
+        <input type="text" id="name" required>
 
-            <label>Email:</label>
-            <input type="email" id="email" required>
+        <label>Email:</label>
+        <input type="email" id="email" required>
 
-            <label>Department:</label>
-            <input type="text" id="department" required>
+        <label>Department:</label>
+        <input type="text" id="department" required>
 
-            <label>Year:</label>
-            <input type="text" id="year" required>
+        <label>Year:</label>
+        <input type="text" id="year" required>
 
-            <label>Project Title:</label>
-            <input type="text" id="projectTitle" required>
+        <label>Project Title:</label>
+        <input type="text" id="projectTitle" required>
 
-            <button type="submit">Register</button>
-        </form>
+        <button type="submit">Register</button>
+    </form>
+
+    <!-- Hidden Success Message -->
+    <div id="successMessage" class="hidden">
+        <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+            <circle class="checkmark-circle" cx="26" cy="26" r="25" fill="none"/>
+            <path class="checkmark-check" fill="none" d="M14 27l7 7 17-17"/>
+        </svg>
+        <p>Registration Successful!</p>
     </div>
+</div>
+
     <script src="day2.js"></script>
 </body>
 </html>
-
   
